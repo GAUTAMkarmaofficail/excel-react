@@ -1,10 +1,12 @@
 import React from "react";
+import { AdminHeader } from "../../../components";
 function Dashboard() {
   return (
     <>
-      <div>Dashboard -page</div>
+      <AdminHeader />
     </>
   );
 }
 
 export default Dashboard;
+
